@@ -10,7 +10,7 @@
 
 ## Overview
 
-Power line failures cost the U.S. economy an estimated $150 billion a year, and outages are getting more frequent and lasting longer as the grid ages. While many outages are sudden, such as lightning strikes or large trees falling on a line, many failure modes could be prevented if utility companies had access to live data on the line. When a line does fail, it can cut power to homes and hospitals, disable traffic systems, and in dry conditions, spark a wildfire. Despite this, most power lines still aren't monitored in real time, so developing faults are usually caught only after they've already caused damage. LiveLine is a clamp-mounted sensor system that attaches directly to a power line and tracks it continuously, catching the early mechanical and thermal warning signs of a developing equipment fault before it turns into an outage or a fire.
+Power line failures leaves roughly 34 million households without power and costs the U.S. economy an estimated $150 billion every year, and outages are getting more frequent and lasting longer as the grid ages. While many outages are sudden, such as lightning strikes or large trees falling on a line, many failure modes could be prevented if utility companies had access to live data on the line. When a line does fail, it can cut power to homes and hospitals, disable traffic systems, and in dry conditions, spark a wildfire. Despite this, most power lines still aren't monitored in real time, so developing faults are usually caught only after they've already caused damage. LiveLine is a clamp-mounted sensor system that attaches directly to a power line and tracks it continuously, catching the early mechanical and thermal warning signs of a developing equipment fault before it turns into an outage or a fire.
 
 
 The sections below distinguish between the **full product vision** and **what has been validated in the current prototype**, since the two are at different stages of maturity.
@@ -29,7 +29,7 @@ LiveLine is designed to fuse five independent sensing modalities into a single c
 
 The clamp uses a half-shell hinge design for ease of installation on live lines. The IMU, strain gauge, and acoustic sensor are mounted directly on the clamp body, while the current and temperature sensors are housed within the PLA enclosure.
 
-<img src="assets/liveline-circuit-diagram.png" width="100%" />
+<img src="Screenshot 2026-08-06 204953.png" width="100%" />
 
 *Circuit diagram of the sensor electronics. This diagram covers the core sensor wiring; the  strain gauge (mounted on the clamp body) are not pictured.*
 
