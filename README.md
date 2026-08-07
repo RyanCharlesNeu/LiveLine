@@ -73,7 +73,7 @@ https://github.com/user-attachments/assets/1eeec7b4-399e-44b4-9e49-9601d9c09212
 
 ### Current & Temperature
 
-The current sensor was verified functional, confirmed accurate within a 10% margin in testing against a hot pot load monitored on a watt meter. The temperature sensor was validated in the same test, showing a measurable rise in line temperature that tracked with the increase in current draw.
+The current sensor was verified functional and confirmed accurate within a 10% margin of error in testing against a hot pot load monitored on a watt meter. The temperature sensor was validated in the same test, showing a measurable rise in line temperature that tracked with the increase in current draw.
 
 <img src="assets/Screenshot%202026-08-06%20231237.png" width="100%" />
 
