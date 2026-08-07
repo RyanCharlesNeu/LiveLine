@@ -107,7 +107,10 @@ The initial prototype validated tension detection using a fixed test clamp, whic
 
 ## Status
 
-LiveLine is an ongoing project. The prototype phase, completed as part of the L3Harris INNOVATE Program, validated core sensing concepts across four of five planned sensor modalities. The current enclosure and clamp are a functional prototype, not a field-ready design, the aluminum clamp is electrically conductive, and the enclosure has no shielding or weatherproofing yet. The design changes needed to close that gap are detailed below.
+LiveLine is an ongoing project. The prototype phase, completed as part of the L3Harris INNOVATE Program, validated core sensing functionality across the current, IMU, temperature, and acoustic sensors, each confirmed working through dedicated bench tests (detailed above). Tension sensing was validated as a concept using a fixed-clamp test setup; the next design iteration moves to a sliding-clamp mechanism that better reflects real field conditions.
+
+All prototype testing was conducted on the bench rather than an energized line, standard practice at this stage of development. The current build uses an aluminum clamp for ease of prototyping; the next revision moves to a non-conductive material along with shielding and weatherproofing ahead of any field deployment.
+
 
 ## Future Work
 
