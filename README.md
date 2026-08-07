@@ -109,7 +109,7 @@ The initial prototype validated tension detection using a fixed test clamp, whic
 
 LiveLine is an ongoing project. The prototype phase, completed as part of the L3Harris INNOVATE Program, validated core sensing functionality across the current, IMU, temperature, and acoustic sensors, each confirmed working through dedicated bench tests (detailed above). Tension sensing was validated as a concept using a fixed-clamp test setup; the next design iteration moves to a sliding-clamp mechanism that better reflects real field conditions.
 
-All prototype testing was conducted on the bench rather than an energized line, standard practice at this stage of development. The current build uses an aluminum clamp for ease of prototyping; the next revision moves to a non-conductive material along with shielding and weatherproofing ahead of any field deployment.
+All prototype testing was conducted on the bench rather than an energized line, a standard practice at this stage of development. The current build uses an aluminum clamp for ease of prototyping; the next iteration will move to a non-conductive material along with shielding and weatherproofing ahead of any field deployment.
 
 
 ## Future Work
@@ -118,10 +118,10 @@ All prototype testing was conducted on the bench rather than an energized line, 
 - **EMF shielding** — protect sensor electronics from electromagnetic interference near energized lines
 - **IP68 weatherproofing** — move from PLA prototype to a fully sealed, weather-rated polycarbonate enclosure for extended outdoor deployment
 - **Sliding-clamp tension sensor** — build and validate the potentiometer-based design described above
+- **Acoustic sensor characterization** — resolve signal-handling limitations to fully validate acoustic fault detection
 - **Solar power** — enable long-duration, unattended field deployment without battery replacement
 - **Satellite communication** — support remote data transmission from field sites without relying on local network infrastructure
 - **AI alert prediction** — move from raw sensor logging toward a model that predicts failure mode and timing from live sensor data
-- **Acoustic sensor characterization** — resolve signal-handling limitations to fully validate acoustic fault detection
 - **Field validation** of the complete sensor suite against real fault conditions
 
 
