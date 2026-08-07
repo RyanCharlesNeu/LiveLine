@@ -21,17 +21,17 @@ LiveLine is designed to fuse five independent sensing modalities into a single c
 | Sensor | Target Signal | Component | Photo |
 |---|---|---|---|
 | Strain Gauge | Tension, force, sag, stress, strain | CEA-13-250UWA-350 | <img src="assets/LIVELINE2.png" width="80" /> |
-| IMU | Vibration, tilt, mechanical fatigue (via Miner's Rule) | QCIOT-ICM42688P | <img src="assets/LIVELINE2 (1).png" width="80" /> |
-| Temperature Sensor | Line temperature, ambient temperature | DS18B20 | <img src="assets/LIVELINE2 (2).png" width="80" /> |
-| Acoustic Sensor | Acoustic fault detection | Nano 30 | <img src="assets/LIVELINE2 (3).png" width="80" /> |
-| Current Sensor | Current detection | SCT-013 | <img src="assets/LIVELINE2 (4).png" width="80" /> |
+| IMU | Vibration, tilt, mechanical fatigue (via Miner's Rule) | QCIOT-ICM42688P | <img src="assets/LIVELINE2%20%281%29.png" width="80" /> |
+| Temperature Sensor | Line temperature, ambient temperature | DS18B20 | <img src="assets/LIVELINE2%20%282%29.png" width="80" /> |
+| Acoustic Sensor | Acoustic fault detection | Nano 30 | <img src="assets/LIVELINE2%20%283%29.png" width="80" /> |
+| Current Sensor | Current detection | SCT-013 | <img src="assets/LIVELINE2%20%284%29.png" width="80" /> |
 
 ## CAD & Enclosure
 
 The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for prototyping. The clamp uses a half-shell hinge design for ease of installation on live lines. The IMU, strain gauge, and acoustic sensor are mounted directly on the clamp body, while the current and temperature sensors are housed within the PLA enclosure.
 
 
-<img src="assets/LIVELINE2 (6).png" width="55%" /> <img src="assets/LIVELINE2 (7).png" width="39%" />
+<img src="assets/LIVELINE2%20%286%29.png" width="55%" /> <img src="assets/LIVELINE2%20%287%29.png" width="39%" />
 
 *CAD design (left) and the printed PLA enclosure (right).*
 
@@ -42,16 +42,16 @@ The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for pr
 ## Circuit Diagram
 
 
-<img src="assets/Screenshot 2026-08-06 204953.png" width="80%" />
+<img src="assets/Screenshot%202026-08-06%20204953.png" width="80%" />
 
-*Circuit diagram of the sensor electronics. This diagram covers the core sensor wiring; the  strain gauge (mounted on the clamp body) are not pictured.*
+*Circuit diagram of the sensor electronics. This diagram covers the core sensor wiring; the strain gauge (mounted on the clamp body) are not pictured.*
 
 
 ## Live Data Dashboard
 
 The target product includes a live dashboard showing real-time sensor data, current line status, and a predicted failure mode based on sensor readings. The mockup below is running on simulated data to demonstrate the intended interface; it is not yet connected to live sensor output.
 
-<img src="assets/LIVELINE2 (8).png" width="80%" />
+<img src="assets/LIVELINE2%20%288%29.png" width="80%" />
 
 *Dashboard mockup showing live data view, line status, and failure mode prediction, running on simulated data.*
 
@@ -75,7 +75,7 @@ https://github.com/user-attachments/assets/1eeec7b4-399e-44b4-9e49-9601d9c09212
 
 The current sensor was verified functional, confirmed accurate within a 10% margin in testing against a hot pot load monitored on a watt meter. The temperature sensor was validated in the same test, showing a measurable rise in line temperature that tracked with the increase in current draw.
 
-<img src="assets/Screenshot 2026-08-06 231237.png" width="100%" />
+<img src="assets/Screenshot%202026-08-06%20231237.png" width="100%" />
 
 *Current sensor test setup: hot pot plugged into a watt meter for a known reference reading, compared against the sensor's live output. Line temperature rose in step with current draw, validating the temperature sensor alongside it.*
 
@@ -103,7 +103,7 @@ https://github.com/user-attachments/assets/c27b1532-991c-4ed6-aec1-5699cf689674
 
 The initial prototype validated tension detection using a fixed test clamp, which is not representative of how the sensor will operate in the field. The next design iteration replaces this with a **sliding-clamp mechanism**: one clamp remains fixed while the second slides freely, with a linear potentiometer mounted between the two to directly measure strain along the line as it develops. This removes the fixed-point limitation of the current prototype and is designed to reflect real in-field conditions.
 
-<img src="assets/LIVELINE2 (5).png" width="60%" />
+<img src="assets/LIVELINE2%20%285%29.png" width="60%" />
 
 ## Status
 
