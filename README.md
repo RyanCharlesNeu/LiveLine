@@ -39,6 +39,8 @@ The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for pr
 
 *Multiple printed prototypes, show casing rapid prototyping and design iteration process.*
 
+## Circuit Diagram
+
 
 <img src="Screenshot 2026-08-06 204953.png" width="80%" />
 
