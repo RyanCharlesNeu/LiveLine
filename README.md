@@ -67,7 +67,7 @@ https://github.com/user-attachments/assets/5e003bab-dd12-4170-9f1b-bec762bf8dd7
 The initial prototype validated tension detection using a fixed test clamp, which is not representative of how the sensor will operate in the field. The next design iteration replaces this with a **sliding-clamp mechanism**: one clamp remains fixed while the second slides freely, with a linear potentiometer mounted between the two to directly measure strain along the line as it develops. This removes the fixed-point limitation of the current prototype and is designed to reflect real in-field conditions.
 
 <!-- CAD RENDERING: updated tension sensor design (fixed + sliding clamp with potentiometer) -->
-<-- <img src="LIVELINE2 (5).png" width="70%" /> -->
+<img src="LIVELINE2 (5).png" width="60%" /> 
 
 
 ## Status
