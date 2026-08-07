@@ -27,10 +27,12 @@ LiveLine is designed to fuse five independent sensing modalities into a single c
 | Acoustic Sensor | Acoustic fault detection | Nano 30 | <img src="LIVELINE2 (3).png" width="80" /> |
 | Current Sensor | Current detection | SCT-013 | <img src="LIVELINE2 (4).png" width="80" /> |
 
-The clamp uses a half-shell hinge design for ease of installation on live lines, with the IMU, strain gauge, and acoustic sensor mounted directly on the clamp body.
+The clamp uses a half-shell hinge design for ease of installation on live lines. The IMU, strain gauge, and acoustic sensor are mounted directly on the clamp body, while the current and temperature sensors are housed within the PLA enclosure.
 
-<!-- SYSTEM DIAGRAM: block diagram or annotated internal layout showing sensor placement -->
-<!-- <img src="assets/liveline-architecture.png" width="100%" /> -->
+<img src="assets/liveline-circuit-diagram.png" width="100%" />
+
+*Circuit diagram of the sensor electronics. This diagram covers the core sensor wiring; the  strain gauge (mounted on the clamp body) are not pictured.*
+
 
 ## Prototype Validation
 
