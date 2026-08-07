@@ -29,7 +29,7 @@ LiveLine is designed to fuse five independent sensing modalities into a single c
 
 The clamp uses a half-shell hinge design for ease of installation on live lines. The IMU, strain gauge, and acoustic sensor are mounted directly on the clamp body, while the current and temperature sensors are housed within the PLA enclosure.
 
-<img src="Screenshot 2026-08-06 204953.png" width="100%" />
+<img src="Screenshot 2026-08-06 204953.png" width="80%" />
 
 *Circuit diagram of the sensor electronics. This diagram covers the core sensor wiring; the  strain gauge (mounted on the clamp body) are not pictured.*
 
