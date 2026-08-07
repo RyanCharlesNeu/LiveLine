@@ -65,6 +65,10 @@ Verified functional.
 **Vibration / IMU demo:**
 
 
+https://github.com/user-attachments/assets/1eeec7b4-399e-44b4-9e49-9601d9c09212
+
+
+
 <br>
 
 ### Current & Temperature
