@@ -6,7 +6,7 @@
 **Role: Systems Engineering Lead & Team Lead**
 
 <!-- HERO IMAGE: full device/enclosure photo -->
-<img src="assets/LiveLinePrototypeEnclosure.jpg" width="40%" />
+<img src="assets/LiveLinePrototypeEnclosure.jpeg" width="40%" />
 
 ## Overview
 
