@@ -33,43 +33,53 @@ The clamp uses a half-shell hinge design for ease of installation on live lines.
 
 *Circuit diagram of the sensor electronics. This diagram covers the core sensor wiring; the  strain gauge (mounted on the clamp body) are not pictured.*
 
-
 ## Prototype Validation
 
-The current prototype has validated a subset of this architecture:
+The current prototype has validated a subset of this architecture.
 
-- **Current sensor** — verified functional, confirmed accurate within a 10% margin in testing against a hot plate load monitored on a watt meter
+### Vibration (IMU)
 
-<img src="Screenshot 2026-08-06 211847.png" width="100%" />
+Verified functional.
 
-*Current sensor test setup: hot plate plugged into a watt meter for a known reference reading, compared against the sensor's live output.*
-
-- **IMU** — verified functional
-  
 **Vibration / IMU demo:**
 
 https://github.com/user-attachments/assets/5e003bab-dd12-4170-9f1b-bec762bf8dd7
-- **Acoustic sensor (Nano 30)** — verified functional. Validated using a Hsu-Nielsen pencil break test (a standard method for generating a controlled acoustic emission event), which produced a clear, detectable signal on the oscilloscope. Further characterization of real fault signatures is limited by the sensor's high sensitivity, which is being addressed in the next testing round.
 
-<img src="IMG_1261.jpg" width="70%" />
+<br>
+
+### Current & Temperature
+
+The current sensor was verified functional, confirmed accurate within a 10% margin in testing against a hot plate load monitored on a watt meter. The temperature sensor was validated in the same test, showing a measurable rise in line temperature that tracked with the increase in current draw.
+
+<img src="Screenshot 2026-08-06 211847.png" width="100%" />
+
+*Current sensor test setup: hot plate plugged into a watt meter for a known reference reading, compared against the sensor's live output. Line temperature rose in step with current draw, validating the temperature sensor alongside it.*
+
+<br>
+
+### Acoustics (Nano 30)
+
+Verified functional. Validated using a Hsu-Nielsen pencil break test (a standard method for generating a controlled acoustic emission event), which produced a clear, detectable signal on the oscilloscope. Further characterization of real fault signatures is limited by the sensor's high sensitivity, which is being addressed in the next testing round.
+
+<img src="IMG_1261.jpg" width="55%" />
 
 *Oscilloscope output from a Hsu-Nielsen pencil break test, showing a clear signal spike captured by the acoustic sensor.*
 
-- **Tension sensing** — the prototype demonstrated the ability to detect large tension events, using a fixed-clamp test setup. This validated the sensing concept but not the final mechanical design (see below)
+<br>
 
+### Tension
+
+The prototype demonstrated the ability to detect large tension events using a fixed-clamp test setup. This validated the sensing concept but not the final mechanical design, addressed in the next section.
 
 **Tension sensor demo:**
 
 https://github.com/user-attachments/assets/c27b1532-991c-4ed6-aec1-5699cf689674
 
-
-
 ## Design Iteration: Tension Sensor
 
 The initial prototype validated tension detection using a fixed test clamp, which is not representative of how the sensor will operate in the field. The next design iteration replaces this with a **sliding-clamp mechanism**: one clamp remains fixed while the second slides freely, with a linear potentiometer mounted between the two to directly measure strain along the line as it develops. This removes the fixed-point limitation of the current prototype and is designed to reflect real in-field conditions.
 
-<!-- CAD RENDERING: updated tension sensor design (fixed + sliding clamp with potentiometer) -->
-<img src="LIVELINE2 (5).png" width="60%" /> 
+<img src="LIVELINE2 (5).png" width="60%" />
 
 
 ## Status
