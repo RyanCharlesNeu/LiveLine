@@ -40,7 +40,7 @@ The current prototype has validated a subset of this architecture:
 
 - **Current sensor** — verified functional, confirmed accurate within a 10% margin in testing against a hot plate load monitored on a watt meter
 
-<img src="Screenshot 2026-08-06 211847.png" width="70%" />
+<img src="Screenshot 2026-08-06 211847.png" width="100%" />
 
 *Current sensor test setup: hot plate plugged into a watt meter for a known reference reading, compared against the sensor's live output.*
 
