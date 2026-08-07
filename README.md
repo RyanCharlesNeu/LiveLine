@@ -21,11 +21,11 @@ LiveLine is designed to fuse five independent sensing modalities into a single c
 
 | Sensor | Target Signal | Component | Photo |
 |---|---|---|---|
-| Strain Gauge | Tension, force, sag, stress, strain | CEA-13-250UWA-350 | <img src="assets/LIVELINE2.png" width="80" /> |
-| IMU | Vibration, tilt, mechanical fatigue (via Miner's Rule) | QCIOT-ICM42688P | <img src="assets/LIVELINE2(1).png" width="80" /> |
-| Temperature Sensor | Line temperature, ambient temperature | DS18B20 | <img src="assets/LIVELINE2(2).png" width="80" /> |
-| Acoustic Sensor | Acoustic fault detection | Nano 30 | <img src="assets/LIVELINE2(3).png" width="80" /> |
-| Current Sensor | Current detection | SCT-013 | <img src="assets/LIVELINE2(4).png" width="80" /> |
+| Strain Gauge | Tension, force, sag, stress, strain | CEA-13-250UWA-350 | <img src="LIVELINE2.png" width="80" /> |
+| IMU | Vibration, tilt, mechanical fatigue (via Miner's Rule) | QCIOT-ICM42688P | <img src="LIVELINE2(1).png" width="80" /> |
+| Temperature Sensor | Line temperature, ambient temperature | DS18B20 | <img src="LIVELINE2(2).png" width="80" /> |
+| Acoustic Sensor | Acoustic fault detection | Nano 30 | <img src="LIVELINE2(3).png" width="80" /> |
+| Current Sensor | Current detection | SCT-013 | <img src="LIVELINE2(4).png" width="80" /> |
 
 The clamp uses a half-shell hinge design for ease of installation on live lines, with the IMU, strain gauge, and acoustic sensor mounted directly on the clamp body.
 
