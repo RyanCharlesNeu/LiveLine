@@ -58,8 +58,6 @@ The target product includes a live dashboard showing real-time sensor data, curr
 
 ## Prototype Validation
 
-The current prototype has validated a subset of this architecture.
-
 ### Vibration (IMU)
 
 Verified functional.
