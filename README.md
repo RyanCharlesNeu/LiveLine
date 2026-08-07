@@ -64,7 +64,6 @@ Verified functional.
 
 **Vibration / IMU demo:**
 
-https://github.com/user-attachments/assets/5e003bab-dd12-4170-9f1b-bec762bf8dd7
 
 <br>
 
