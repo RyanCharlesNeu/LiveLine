@@ -49,11 +49,11 @@ https://github.com/user-attachments/assets/5e003bab-dd12-4170-9f1b-bec762bf8dd7
 
 ### Current & Temperature
 
-The current sensor was verified functional, confirmed accurate within a 10% margin in testing against a hot plate load monitored on a watt meter. The temperature sensor was validated in the same test, showing a measurable rise in line temperature that tracked with the increase in current draw.
+The current sensor was verified functional, confirmed accurate within a 10% margin in testing against a hot pot load monitored on a watt meter. The temperature sensor was validated in the same test, showing a measurable rise in line temperature that tracked with the increase in current draw.
 
 <img src="Screenshot 2026-08-06 211847.png" width="100%" />
 
-*Current sensor test setup: hot plate plugged into a watt meter for a known reference reading, compared against the sensor's live output. Line temperature rose in step with current draw, validating the temperature sensor alongside it.*
+*Current sensor test setup: hot pot plugged into a watt meter for a known reference reading, compared against the sensor's live output. Line temperature rose in step with current draw, validating the temperature sensor alongside it.*
 
 <br>
 
@@ -80,6 +80,16 @@ https://github.com/user-attachments/assets/c27b1532-991c-4ed6-aec1-5699cf689674
 The initial prototype validated tension detection using a fixed test clamp, which is not representative of how the sensor will operate in the field. The next design iteration replaces this with a **sliding-clamp mechanism**: one clamp remains fixed while the second slides freely, with a linear potentiometer mounted between the two to directly measure strain along the line as it develops. This removes the fixed-point limitation of the current prototype and is designed to reflect real in-field conditions.
 
 <img src="LIVELINE2 (5).png" width="60%" />
+
+## Known Limitations & Next Steps
+
+The current enclosure and clamp are a functional prototype, not a field-ready design. Two items are the immediate focus of the next iteration:
+
+- **Material:** The current clamp is aluminum, which is electrically conductive and unsuitable for a device mounted on an energized line. The next revision moves to a plastic material selected to still transmit vibration accurately to the IMU and acoustic sensor.
+- **Enclosure protection:** The current prototype has no Faraday shielding or weatherproofing. The planned production enclosure uses polycarbonate for weather resistance, with Faraday shielding added to protect sensor electronics from electromagnetic interference near energized lines.
+
+<!-- CAD / ENCLOSURE IMAGES -->
+<!-- <img src="IMG_1261.png" width="49%" /> <img src="assets/liveline-enclosure-photo.jpg" width="49%" /> -->
 
 
 ## Status
