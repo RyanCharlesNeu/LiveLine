@@ -81,15 +81,29 @@ The initial prototype validated tension detection using a fixed test clamp, whic
 
 <img src="LIVELINE2 (5).png" width="60%" />
 
+## CAD & Enclosure
+
+The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for prototyping.
+
+<img src="assets/liveline-enclosure-cad.png" width="49%" /> <img src="assets/liveline-enclosure-photo.jpg" width="49%" />
+
+*CAD design (left) and the printed PLA enclosure (right).*
+
+<img src="assets/liveline-prototypes-stacked.jpg" width="70%" />
+
+*Multiple printed prototypes, showing consistency across builds.*
+
+## Live Data Dashboard
+
+The target product includes a live dashboard showing real-time sensor data, current line status, and a predicted failure mode based on sensor readings. The mockup below is running on simulated data to demonstrate the intended interface; it is not yet connected to live sensor output.
+
+<img src="assets/liveline-dashboard.png" width="100%" />
+
+*Dashboard mockup showing live data view, line status, and failure mode prediction, running on simulated data.*
+
 ## Known Limitations & Next Steps
 
-The current enclosure and clamp are a functional prototype, not a field-ready design. Two items are the immediate focus of the next iteration:
-
-- **Material:** The current clamp is aluminum, which is electrically conductive and unsuitable for a device mounted on an energized line. The next revision moves to a plastic material selected to still transmit vibration accurately to the IMU and acoustic sensor.
-- **Enclosure protection:** The current prototype has no Faraday shielding or weatherproofing. The planned production enclosure uses polycarbonate for weather resistance, with Faraday shielding added to protect sensor electronics from electromagnetic interference near energized lines.
-
-<!-- CAD / ENCLOSURE IMAGES -->
-<!-- <img src="IMG_1261.png" width="49%" /> <img src="assets/liveline-enclosure-photo.jpg" width="49%" /> -->
+The current enclosure and clamp are a functional prototype, not a field-ready design, the aluminum clamp is electrically conductive and the enclosure has no Faraday shielding or weatherproofing yet. Planned fixes are detailed in Future Work below.
 
 
 ## Status
