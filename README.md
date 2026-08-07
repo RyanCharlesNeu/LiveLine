@@ -75,7 +75,7 @@ https://github.com/user-attachments/assets/1eeec7b4-399e-44b4-9e49-9601d9c09212
 
 The current sensor was verified functional, confirmed accurate within a 10% margin in testing against a hot pot load monitored on a watt meter. The temperature sensor was validated in the same test, showing a measurable rise in line temperature that tracked with the increase in current draw.
 
-<img src="assets/Screenshot 2026-08-06 211847.png" width="100%" />
+<img src="assets/Screenshot 2026-08-06 231237.png" width="100%" />
 
 *Current sensor test setup: hot pot plugged into a watt meter for a known reference reading, compared against the sensor's live output. Line temperature rose in step with current draw, validating the temperature sensor alongside it.*
 
