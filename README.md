@@ -6,7 +6,7 @@
 **Role: Systems Engineering Lead & Team Lead**
 
 <!-- HERO IMAGE: full device/enclosure photo -->
-<img src="IMG_1242.jpg" width="100%" />
+<img src="IMG_1242.jpg" width="50%" />
 
 ## Overview
 
@@ -38,14 +38,25 @@ The clamp uses a half-shell hinge design for ease of installation on live lines.
 
 The current prototype has validated a subset of this architecture:
 
-- **Current sensor** — verified functional, confirmed accurate within a 10% margin in testing
+- **Current sensor** — verified functional, confirmed accurate within a 10% margin in testing against a hot plate load monitored on a watt meter
+
+<img src="assets/current-sensor-test.jpg" width="70%" />
+
+*Current sensor test setup: hot plate plugged into a watt meter for a known reference reading, compared against the sensor's live output.*
+
 - **IMU** — verified functional
-- **Acoustic sensor (Nano 30)** — verified functional, detecting signal as expected; further characterization is limited by the sensor's high sensitivity, which is being addressed in the next testing round
+- **Acoustic sensor (Nano 30)** — verified functional. Validated using a Hsu-Nielsen pencil break test (a standard method for generating a controlled acoustic emission event), which produced a clear, detectable signal on the oscilloscope. Further characterization of real fault signatures is limited by the sensor's high sensitivity, which is being addressed in the next testing round.
+
+<img src="assets/acoustic-oscilloscope.jpg" width="70%" />
+
+*Oscilloscope output from a Hsu-Nielsen pencil break test, showing a clear signal spike captured by the acoustic sensor.*
+
 - **Tension sensing** — the prototype demonstrated the ability to detect large tension events, using a fixed-clamp test setup. This validated the sensing concept but not the final mechanical design (see below)
 
-<!-- DEMO VIDEOS: tension sensor demo, vibration/IMU demo -->
-<!-- Tension sensor demo: [link or embed] -->
-<!-- Vibration / IMU demo: [link or embed] -->
+<!-- DEMO VIDEOS -->
+<!-- GitHub doesn't support directly embedding video files that autoplay, but you can attach a video file to a markdown file and GitHub will render it as a native inline player. To do this: click into README.md, click the pencil to edit, then drag your video file directly into the text edit box (same area as typing). GitHub will upload it and auto-insert a working link/embed at your cursor. Do this for both videos below, then delete these instructional comments. -->
+<!-- Tension sensor demo: [drag video file into editor here] -->
+<!-- Vibration / IMU demo: [drag video file into editor here] -->
 
 ## Design Iteration: Tension Sensor
 
@@ -54,15 +65,6 @@ The initial prototype validated tension detection using a fixed test clamp, whic
 <!-- CAD RENDERING: updated tension sensor design (fixed + sliding clamp with potentiometer) -->
 <!-- <img src="assets/liveline-tension-sensor-cad.png" width="100%" /> -->
 
-## Known Limitations & Next Steps
-
-The current enclosure and clamp are a functional prototype, not a field-ready design. Two items are the immediate focus of the next iteration:
-
-- **Material:** The current clamp is aluminum, which is electrically conductive and unsuitable for a device mounted on an energized line. The next revision moves to a plastic material selected to still transmit vibration accurately to the IMU and acoustic sensor.
-- **Enclosure protection:** The current prototype has no Faraday shielding or weatherproofing. The planned production enclosure uses polycarbonate for weather resistance, with Faraday shielding added to protect sensor electronics from electromagnetic interference near energized lines.
-
-<!-- CAD / ENCLOSURE IMAGES -->
-<!-- <img src="assets/liveline-enclosure-cad.png" width="49%" /> <img src="assets/liveline-enclosure-photo.jpg" width="49%" /> -->
 
 ## Status
 
