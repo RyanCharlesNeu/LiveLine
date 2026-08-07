@@ -30,7 +30,7 @@ LiveLine is designed to fuse five independent sensing modalities into a single c
 
 The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for prototyping.
 
-<img src="assets/liveline-enclosure-cad.png" width="49%" /> <img src="assets/liveline-enclosure-photo.jpg" width="49%" />
+<img src="assets/liveline-enclosure-cad.png" width="49%" /> <img src="LIVELINE2 (7).png.jpg" width="49%" />
 
 *CAD design (left) and the printed PLA enclosure (right).*
 
