@@ -27,11 +27,34 @@ LiveLine is designed to fuse five independent sensing modalities into a single c
 | Acoustic Sensor | Acoustic fault detection | Nano 30 | <img src="LIVELINE2 (3).png" width="80" /> |
 | Current Sensor | Current detection | SCT-013 | <img src="LIVELINE2 (4).png" width="80" /> |
 
+## CAD & Enclosure
+
+The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for prototyping.
+
+<img src="assets/liveline-enclosure-cad.png" width="49%" /> <img src="assets/liveline-enclosure-photo.jpg" width="49%" />
+
+*CAD design (left) and the printed PLA enclosure (right).*
+
+<img src="assets/liveline-prototypes-stacked.jpg" width="70%" />
+
+*Multiple printed prototypes, showing consistency across builds.*
+
+
 The clamp uses a half-shell hinge design for ease of installation on live lines. The IMU, strain gauge, and acoustic sensor are mounted directly on the clamp body, while the current and temperature sensors are housed within the PLA enclosure.
 
 <img src="Screenshot 2026-08-06 204953.png" width="80%" />
 
 *Circuit diagram of the sensor electronics. This diagram covers the core sensor wiring; the  strain gauge (mounted on the clamp body) are not pictured.*
+
+
+## Live Data Dashboard
+
+The target product includes a live dashboard showing real-time sensor data, current line status, and a predicted failure mode based on sensor readings. The mockup below is running on simulated data to demonstrate the intended interface; it is not yet connected to live sensor output.
+
+<img src="assets/liveline-dashboard.png" width="100%" />
+
+*Dashboard mockup showing live data view, line status, and failure mode prediction, running on simulated data.*
+
 
 ## Prototype Validation
 
@@ -81,34 +104,15 @@ The initial prototype validated tension detection using a fixed test clamp, whic
 
 <img src="LIVELINE2 (5).png" width="60%" />
 
-## CAD & Enclosure
+## Status
 
-The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for prototyping.
+LiveLine is an ongoing project. The prototype phase, completed as part of the L3Harris INNOVATE Program, validated core sensing concepts across four of five planned sensor modalities and identified the specific design changes (clamp material, tension mechanism, enclosure protection) needed to move toward a field-deployable version.
 
-<img src="assets/liveline-enclosure-cad.png" width="49%" /> <img src="assets/liveline-enclosure-photo.jpg" width="49%" />
-
-*CAD design (left) and the printed PLA enclosure (right).*
-
-<img src="assets/liveline-prototypes-stacked.jpg" width="70%" />
-
-*Multiple printed prototypes, showing consistency across builds.*
-
-## Live Data Dashboard
-
-The target product includes a live dashboard showing real-time sensor data, current line status, and a predicted failure mode based on sensor readings. The mockup below is running on simulated data to demonstrate the intended interface; it is not yet connected to live sensor output.
-
-<img src="assets/liveline-dashboard.png" width="100%" />
-
-*Dashboard mockup showing live data view, line status, and failure mode prediction, running on simulated data.*
 
 ## Known Limitations & Next Steps
 
 The current enclosure and clamp are a functional prototype, not a field-ready design, the aluminum clamp is electrically conductive and the enclosure has no Faraday shielding or weatherproofing yet. Planned fixes are detailed in Future Work below.
 
-
-## Status
-
-LiveLine is an ongoing project. The prototype phase, completed as part of the L3Harris INNOVATE Program, validated core sensing concepts across four of five planned sensor modalities and identified the specific design changes (clamp material, tension mechanism, enclosure protection) needed to move toward a field-deployable version.
 
 ## Future Work
 
