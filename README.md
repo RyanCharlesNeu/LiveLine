@@ -36,7 +36,7 @@ The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for pr
 
 <img src="IMG_1275.jpeg" width="50%" />
 
-*Multiple printed prototypes, showing consistency across builds.*
+*Multiple printed prototypes, show casing rapid prototyping and design iteration process.*
 
 
 The clamp uses a half-shell hinge design for ease of installation on live lines. The IMU, strain gauge, and acoustic sensor are mounted directly on the clamp body, while the current and temperature sensors are housed within the PLA enclosure.
@@ -50,7 +50,7 @@ The clamp uses a half-shell hinge design for ease of installation on live lines.
 
 The target product includes a live dashboard showing real-time sensor data, current line status, and a predicted failure mode based on sensor readings. The mockup below is running on simulated data to demonstrate the intended interface; it is not yet connected to live sensor output.
 
-<img src="assets/liveline-dashboard.png" width="100%" />
+<img src="LIVELINE2 (8).png" width="80%" />
 
 *Dashboard mockup showing live data view, line status, and failure mode prediction, running on simulated data.*
 
