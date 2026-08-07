@@ -15,8 +15,7 @@ Power line failures leaves roughly 34 million households without power and costs
 
 The sections below distinguish between the **full product vision** and **what has been validated in the current prototype**, since the two are at different stages of maturity.
 
-## System Architecture (Target Design)
-
+## System Architecture
 LiveLine is designed to fuse five independent sensing modalities into a single clamp-mounted enclosure, each targeting a different fault precursor:
 
 | Sensor | Target Signal | Component | Photo |
