@@ -45,6 +45,10 @@ The current prototype has validated a subset of this architecture:
 *Current sensor test setup: hot plate plugged into a watt meter for a known reference reading, compared against the sensor's live output.*
 
 - **IMU** — verified functional
+  
+**Vibration / IMU demo:**
+
+https://github.com/user-attachments/assets/5e003bab-dd12-4170-9f1b-bec762bf8dd7
 - **Acoustic sensor (Nano 30)** — verified functional. Validated using a Hsu-Nielsen pencil break test (a standard method for generating a controlled acoustic emission event), which produced a clear, detectable signal on the oscilloscope. Further characterization of real fault signatures is limited by the sensor's high sensitivity, which is being addressed in the next testing round.
 
 <img src="IMG_1261.jpg" width="70%" />
@@ -58,9 +62,7 @@ The current prototype has validated a subset of this architecture:
 
 https://github.com/user-attachments/assets/c27b1532-991c-4ed6-aec1-5699cf689674
 
-**Vibration / IMU demo:**
 
-https://github.com/user-attachments/assets/5e003bab-dd12-4170-9f1b-bec762bf8dd7
 
 ## Design Iteration: Tension Sensor
 
