@@ -104,20 +104,18 @@ The initial prototype validated tension detection using a fixed test clamp, whic
 
 ## Status
 
-LiveLine is an ongoing project. The prototype phase, completed as part of the L3Harris INNOVATE Program, validated core sensing concepts across four of five planned sensor modalities and identified the specific design changes (clamp material, tension mechanism, enclosure protection) needed to move toward a field-deployable version.
-
-
-## Known Limitations & Next Steps
-
-The current enclosure and clamp are a functional prototype, not a field-ready design, the aluminum clamp is electrically conductive and the enclosure has no Faraday shielding or weatherproofing yet. Planned fixes are detailed in Future Work below.
-
+LiveLine is an ongoing project. The prototype phase, completed as part of the L3Harris INNOVATE Program, validated core sensing concepts across four of five planned sensor modalities. The current enclosure and clamp are a functional prototype, not a field-ready design, the aluminum clamp is electrically conductive, and the enclosure has no shielding or weatherproofing yet. The design changes needed to close that gap are detailed below.
 
 ## Future Work
 
+- **High-quality plastic clamp** — replace the current aluminum clamp with a non-conductive plastic that still transmits vibration accurately to the IMU and acoustic sensor
+- **EMF shielding** — protect sensor electronics from electromagnetic interference near energized lines
+- **IP68 weatherproofing** — move from PLA prototype to a fully sealed, weather-rated polycarbonate enclosure for extended outdoor deployment
 - **Sliding-clamp tension sensor** — build and validate the potentiometer-based design described above
-- **Non-conductive clamp material** — transition from aluminum to a vibration-transmissive plastic
-- **Faraday-shielded, weatherproof enclosure** — move from PLA prototype to a polycarbonate production enclosure
+- **Solar power** — enable long-duration, unattended field deployment without battery replacement
+- **Satellite communication** — support remote data transmission from field sites without relying on local network infrastructure
+- **AI alert prediction** — move from raw sensor logging toward a model that predicts failure mode and timing from live sensor data
 - **Acoustic sensor characterization** — resolve signal-handling limitations to fully validate acoustic fault detection
 - **Field validation** of the complete sensor suite against real fault conditions
-- **Onboard fault classification** — move from raw sensor logging toward real-time, embedded fault detection
+
 
