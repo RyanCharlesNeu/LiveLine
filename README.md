@@ -34,7 +34,7 @@ The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for pr
 
 *CAD design (left) and the printed PLA enclosure (right).*
 
-<img src="assets/liveline-prototypes-stacked.jpg" width="70%" />
+<img src="IMG_1275.jpg" width="70%" />
 
 *Multiple printed prototypes, showing consistency across builds.*
 
