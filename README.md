@@ -53,10 +53,14 @@ The current prototype has validated a subset of this architecture:
 
 - **Tension sensing** — the prototype demonstrated the ability to detect large tension events, using a fixed-clamp test setup. This validated the sensing concept but not the final mechanical design (see below)
 
-<!-- DEMO VIDEOS -->
-<!-- GitHub doesn't support directly embedding video files that autoplay, but you can attach a video file to a markdown file and GitHub will render it as a native inline player. To do this: click into README.md, click the pencil to edit, then drag your video file directly into the text edit box (same area as typing). GitHub will upload it and auto-insert a working link/embed at your cursor. Do this for both videos below, then delete these instructional comments. -->
-<!-- Tension sensor demo: [drag video file into editor here] -->
-<!-- Vibration / IMU demo: [drag video file into editor here] -->
+
+**Tension sensor demo:**
+
+https://github.com/user-attachments/assets/c27b1532-991c-4ed6-aec1-5699cf689674
+
+**Vibration / IMU demo:**
+
+https://github.com/user-attachments/assets/5e003bab-dd12-4170-9f1b-bec762bf8dd7
 
 ## Design Iteration: Tension Sensor
 
