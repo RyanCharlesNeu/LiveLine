@@ -47,7 +47,7 @@ The current prototype has validated a subset of this architecture:
 - **IMU** — verified functional
 - **Acoustic sensor (Nano 30)** — verified functional. Validated using a Hsu-Nielsen pencil break test (a standard method for generating a controlled acoustic emission event), which produced a clear, detectable signal on the oscilloscope. Further characterization of real fault signatures is limited by the sensor's high sensitivity, which is being addressed in the next testing round.
 
-<img src="assets/acoustic-oscilloscope.jpg" width="70%" />
+<img src="IMG_1261.jpg" width="70%" />
 
 *Oscilloscope output from a Hsu-Nielsen pencil break test, showing a clear signal spike captured by the acoustic sensor.*
 
