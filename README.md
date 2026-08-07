@@ -44,7 +44,7 @@ The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for pr
 
 <img src="assets/Screenshot%202026-08-06%20204953.png" width="80%" />
 
-*Circuit diagram of the sensor electronics. This diagram covers the core sensor wiring; the strain gauge (mounted on the clamp body) are not pictured.*
+*Circuit diagram of the sensor electronics. This diagram covers the core sensor wiring; the strain gauge (mounted on the clamp body) is not pictured.*
 
 
 ## Live Data Dashboard
