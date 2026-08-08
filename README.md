@@ -31,7 +31,7 @@ LiveLine is designed to fuse five independent sensing modalities into a single c
 The clamp and enclosure were designed in SolidWorks and 3D printed in PLA for prototyping. The clamp uses a half-shell hinge design for ease of installation on live lines. The IMU, strain gauge, and acoustic sensor are mounted directly on the clamp body, while the current and temperature sensors are housed within the PLA enclosure.
 
 
-<img src="assets/LIVELINE2%20%286%29.png" width="55%" /> <img src="assets/LIVELINE2%20%287%29.png" width="39%" />
+<img src="assets/LIVELINE2%20%286%29.png" width="60%" /> <img src="assets/LIVELINE2%20%287%29.png" width="33.1%" />
 
 *CAD design (left) and the printed PLA enclosure (right).*
 
