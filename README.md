@@ -112,7 +112,11 @@ All testing so far was done on the bench, not on an energized line, which is sta
 
 ### Vibration (IMU)
 
-Verified functional (see the IMU demo under Demos).
+Verified functional.
+
+https://github.com/user-attachments/assets/1eeec7b4-399e-44b4-9e49-9601d9c09212
+
+*IMU vibration detection.*
 
 ### Current and Temperature
 
@@ -132,7 +136,11 @@ Verified functional with a Hsu-Nielsen pencil break test, a standard way to gene
 
 ### Tension
 
-Large tension events were detected using a fixed-clamp test setup. This validated the sensing concept but not the final mechanical design (see the sliding-clamp redesign under Future Improvements; demo under Demos).
+Large tension events were detected using a fixed-clamp test setup. This validated the sensing concept but not the final mechanical design (see the sliding-clamp redesign under Future Improvements).
+
+https://github.com/user-attachments/assets/c27b1532-991c-4ed6-aec1-5699cf689674
+
+*Tension detection on the fixed-clamp test setup.*
 
 ---
 
